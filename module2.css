@@ -1,0 +1,53 @@
+
+p{
+    padding-top: 20px;
+    
+}
+
+h3{
+text-align: center;}
+#div1{
+    background-color: rgb(205, 129, 154);
+}
+#div2{
+    background-color: rgb(171, 70, 70);
+    color: aliceblue;
+}
+#div3{
+    background-color: rgb(209, 236, 119);
+}
+
+.parent{
+    background-color: rgb(178, 182, 183);
+    border: 1px solid black;
+    position: relative;
+    display: inline-block;
+}
+
+.child{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    border: 1px solid black;
+}
+
+@media (min-width: 992px){
+    p{
+        width: 32%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+   #p1{
+        width:49%;
+        float: left;
+    }
+    #p2{
+        width:49%;
+        float: right;
+    }
+    #p3{
+        width: auto;
+    }
+}
+
